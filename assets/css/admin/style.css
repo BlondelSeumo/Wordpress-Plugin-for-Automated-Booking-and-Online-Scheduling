@@ -1,0 +1,2271 @@
+/** common css **/
+html{
+    font-size: 14px !important;
+}
+li.wp-has-submenu .toplevel_page_fat-services-booking img,
+#toplevel_page_fat-service-booking img{
+    width: 20px;
+}
+.fat-sb-process-container {
+    background-color: transparent;
+    z-index: 999999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.ui.form .fields.fat-hidden,
+.fat-hidden{
+    display: none;
+}
+.fat-fullwidth{
+    width: 100%;
+}
+.fat-float-right{
+    float: right;
+}
+
+.fat-inline{
+    display: inline-block;
+}
+
+.fat-semantic-container a:not(.fc-event) {
+    color: #343434;
+}
+
+.fat-semantic-container a:not(.fc-event):hover {
+    color: #2185d0;
+}
+
+.fat-semantic-container .column-check-all{
+    width: 50px;
+}
+
+img.fat-img-80,
+span.fat-img-80 {
+    width: 80px !important;
+    height: 80px !important;
+}
+
+img.fat-img-100,
+span.fat-img-100 {
+    width: 100px !important;
+    height: 100px !important;
+}
+
+img.fat-img-150,
+span.fat-img-150 {
+    width: 150px !important;
+    height: 150px !important;
+}
+
+span.fat-no-thumb {
+    display: inline-block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #ddd;
+}
+
+.fat-pd-left-5 {
+    padding-left: 5px;
+}
+
+.fat-pd-left-10 {
+    padding-left: 10px;
+}
+
+.fat-pd-left-15 {
+    padding-left: 15px;
+}
+
+.fat-pd-left-20 {
+    padding-left: 20px;
+}
+
+.fat-pd-right-5 {
+    padding-right: 5px;
+}
+
+.fat-pd-right-10 {
+    padding-right: 10px;
+}
+
+.fat-pd-right-15 {
+    padding-right: 15px;
+}
+
+.fat-pd-right-20 {
+    padding-right: 20px;
+}
+
+.fat-min-height-300 {
+    min-height: 300px;
+}
+
+.fat-pd-top-10 {
+    padding-top: 10px;
+}
+
+.fat-pd-bottom-10 {
+    padding-bottom: 10px;
+}
+
+.fat-pd-top-15 {
+    padding-top: 15px;
+}
+
+.fat-pd-bottom-15 {
+    padding-bottom: 15px;
+}
+
+.fat-mg-top-5 {
+    margin-top: 5px;
+}
+
+.fat-mg-bottom-5 {
+    margin-bottom: 5px;
+}
+
+.fat-mg-top-10 {
+    margin-top: 10px;
+}
+
+.fat-mg-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.fat-mg-top-15,
+.ui.button.fat-mg-top-15 {
+    margin-top: 15px;
+}
+
+.fat-mg-bottom-15 {
+    margin-bottom: 15px;
+}
+
+.fat-mg-left-10 {
+    margin-left: 10px;
+}
+
+.fat-mg-right-10 {
+    margin-right: 10px;
+}
+
+.fat-mg-left-15,
+.ui.button.fat-mg-left-15 {
+    margin-left: 15px;
+}
+
+.fat-mg-right-15,
+.ui.button.fat-mg-right-15 {
+    margin-right: 15px;
+}
+
+.fat-sb-hidden,
+.ui.form .fields.fat-sb-hidden {
+    display: none;
+}
+
+.fat-semantic-container a,
+.fat-semantic-container a:focus,
+.fat-semantic-container a:active {
+    text-decoration: none;
+    text-underline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.fat-pd-10,
+.fat-semantic-container .ui.items > .item.fat-pd-10 {
+    padding: 10px;
+}
+
+.fat-pd-15,
+.ui.card.fat-pd-15,
+.fat-semantic-container .ui.items > .item.fat-pd-15 {
+    padding: 15px;
+}
+.fat-field-description{
+    font-style: italic;
+    color:#797878;
+}
+
+.fat-border-round {
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+    overflow: hidden;
+}
+
+.fat-box-shadow {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3) !important;
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3) !important;
+    -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3) !important;
+}
+
+.fat-semantic-container .ui.form .one.fields > .field {
+    flex: 1;
+}
+
+.fat-semantic-container.modal .ui.icon.search.input {
+    width: 92% !important;
+    background-color: transparent;
+}
+
+.ui.selection.dropdown.active > div.menu,
+.fat-semantic-container.modal .ui.bottom.selection.dropdown.active > div.menu {
+    border-top: solid 1px #96c8da !important;
+    -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* validate form */
+.fat-semantic-container .ui.form .field .field-error-message {
+    display: none;
+    font-size: 12px;
+    color: red;
+}
+
+.fat-semantic-container .ui.form .field.field-error input,
+.fat-semantic-container .ui.form .field.field-error .ui.selection {
+    border-color: red;
+}
+
+.fat-semantic-container .ui.form .field.field-error .field-error-message {
+    display: block;
+}
+
+.ui.card > button.fat-item-bt-inline {
+    display: inline-block;
+    width: 1rem;
+    position: absolute;
+    top: 10px
+}
+
+.ui.card > button.fat-item-bt-inline:first-child {
+    right: 10px;
+}
+
+.ui.card > button.fat-item-bt-inline:last-child {
+    right: 15px;
+}
+
+.ui.card > .fat-sb-button-group button.fat-item-bt-inline,
+.ui.items .item button.fat-item-bt-inline {
+    opacity: 0;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -ms-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+}
+
+.ui.card > .fat-sb-button-group,
+.ui.table tr td button.fat-item-bt-inline,
+.ui.items .item button.fat-item-bt-inline {
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -ms-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+    height: 20px;
+    padding: 0px;
+    background-color: transparent;
+    margin-left: 2px;
+    color: #343434;
+}
+
+.ui.card > .fat-sb-button-group > button.fat-item-bt-inline {
+    padding: 0px;
+}
+
+.ui.card > .fat-sb-button-group > button.fat-item-bt-inline:focus,
+.ui.card > .fat-sb-button-group > button.fat-item-bt-inline:active,
+.ui.table tr td button.fat-item-bt-inline:focus,
+.ui.table tr td button.fat-item-bt-inline:active,
+.ui.items .item button.fat-item-bt-inline:focus,
+.ui.items .item button.fat-item-bt-inline:active {
+    box-shadow: none;
+}
+
+.ui.card > .fat-sb-button-group > button.fat-item-bt-inline:hover,
+.ui.items .item button.fat-item-bt-inline:hover,
+.ui.table tr td button.fat-item-bt-inline:hover,
+.ui.card > .fat-sb-button-group > button.fat-item-bt-inline.loading.loading.loading.loading.loading.loading,
+.ui.table tr td button.fat-item-bt-inline.loading.loading.loading.loading.loading.loading,
+.ui.items .item button.ui.fat-item-bt-inline.loading.loading.loading.loading.loading.loading {
+    color: #2185d0;
+}
+
+.ui.card > .fat-sb-button-group > button.fat-item-bt-inline.loading:before,
+.ui.table tr td button.fat-item-bt-inline.loading:before,
+.ui.items .item button.fat-item-bt-inline.loading:before,
+.ui.items .item button.ui.fat-item-bt-inline.loading:before,
+.ui.button.primary.no-border.loading:before {
+    border-color: rgba(33, 133, 208, 0.3);
+}
+
+.ui.card > .fat-sb-button-group > button.fat-item-bt-inline.loading:after,
+.ui.table tr td button.fat-item-bt-inline.loading:after,
+.ui.items .item button.fat-item-bt-inline.loading:after,
+.ui.items .item button.ui.fat-item-bt-inline.loading:after,
+.ui.button.primary.no-border.loading:after {
+    border-color: rgba(33, 133, 208, 1) transparent transparent;
+}
+
+.fat-item-bt-inline.fat-disabled,
+.fat-item-bt-inline.fat-disabled:hover {
+    cursor: not-allowed;
+    color: #858585 !important;
+}
+
+/*.column .ui.card:hover i.edit.icon,
+.ui.items .item:hover i.select,
+.ui.items .item:hover i.edit,*/
+.ui.card:hover > .fat-sb-button-group button.fat-item-bt-inline,
+.ui.items .item:hover button.fat-item-bt-inline,
+.ui.items .item button.fat-item-bt-inline.loading {
+    opacity: 1;
+    display: inline-block;
+}
+
+/* dropdown menu */
+.ui.selection.dropdown.active > div.menu:after,
+.ui.modal.fat-semantic-container .ui.left.pointing.dropdown > .menu:after {
+    border-left: solid 1px #96c8da !important;
+    border-top: solid 1px #96c8da !important;
+    bottom: -.3em;
+}
+
+/*.ui.selection.dropdown .menu,
+.ui.modal.fat-semantic-container .ui.selection.dropdown .menu{
+    overflow:inherit !important;
+}*/
+
+.fat-hover-scale {
+    display: inline-block;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.fat-hover-scale:hover {
+    -webkit-transform: scale3d(1.3, 1.3, 1.3);
+    -moz-transform: scale3d(1.3, 1.3, 1.3);
+    -ms-transform: scale3d(1.3, 1.3, 1.3);
+    -o-transform: scale3d(1.3, 1.3, 1.3);
+    transform: scale3d(1.3, 1.3, 1.3);
+}
+
+.fat-semantic-container button.ui i {
+    background-color: transparent;
+}
+
+.fat-semantic-container button.ui.simple i {
+    margin-right: 2px;
+}
+
+.fat-semantic-container button.ui.simple,
+.fat-semantic-container button.ui.simple:focus,
+.fat-semantic-container button.ui.simple:active,
+.fat-semantic-container button.ui.simple:hover {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    padding: 0 !important;
+    margin-right: 10px;
+}
+
+.fat-semantic-container button.ui.simple:hover {
+    color: #2185d0 !important;
+}
+
+.fat-semantic-container button.ui.fat-hover-red:hover {
+    color: red !important;
+}
+
+.fat-semantic-container button.ui.basic.button.no-border,
+.fat-semantic-container button.ui.basic.button.no-border:hover,
+.fat-semantic-container button.ui.basic.button.no-border:focus,
+.fat-semantic-container button.ui.basic.button.no-border:active {
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    padding: 0.2em 0.7em;
+}
+
+.fat-semantic-container button.ui.button.no-border > i.icon {
+    margin-right: 0px !important;
+}
+
+/** employees */
+.fat-sb-list-employees .enable-status {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.fat-sb-list-employees .enable-status.enable i {
+    color: #2185d0;
+}
+
+.fat-sb-list-employees .enable-status.disable i {
+    color: rgba(219, 40, 40, 1);
+}
+
+.fat-sb-list-employees .ui.card > .image {
+    text-align: center;
+    background-color: transparent;
+    padding: 15px;
+}
+
+.fat-sb-list-employees .ui.card > .image img {
+    width: 150px;
+    max-width: 100%;
+}
+
+.fat-sb-list-employees .ui.card {
+    position: relative;
+}
+
+.ui.card > .fat-sb-button-group {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.ui.card > .fat-sb-button-group button {
+    background: transparent;
+}
+
+.ui.card .pagination.menu {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 15px;
+    padding: 0;
+}
+
+.fat-sb-list-employees-services .ui.disabled.input {
+    opacity: 0.3;
+}
+
+.actions .left-button-groups {
+    float: left;
+    display: inline-block;
+    margin-left: 7px;
+}
+
+.actions .left-button-groups .ui.button:not(.icon) > .icon:not(.button):not(.dropdown) {
+    margin: 0;
+}
+
+.ui.button.fat-bt-delete {
+    -webkit-box-shadow: 0 0 0 1px rgba(219, 40, 40, 0.7) inset;
+    -moz-box-shadow: 0 0 0 1px rgba(219, 40, 40, 0.7) inset;
+    box-shadow: 0 0 0 1px rgba(219, 40, 40, 0.7) inset;
+}
+
+.ui.button.fat-bt-delete:hover {
+    -webkit-box-shadow: 0 0 0 1px rgba(219, 40, 40, 1) inset;
+    -moz-box-shadow: 0 0 0 1px rgba(219, 40, 40, 1) inset;
+    box-shadow: 0 0 0 1px rgba(219, 40, 40, 1) inset;
+}
+
+.ui.button.fat-bt-delete:not(.loading) i.icon,
+.ui.button.fat-bt-delete:not(.loading) i.icon:after {
+    color: rgba(219, 40, 40, 0.7);
+}
+
+.ui.button.fat-bt-delete:not(.loading):hover i.icon,
+.ui.button.fat-bt-delete:not(.loading):hover i.icon:after {
+    color: rgba(219, 40, 40, 1);
+}
+
+.ui.dropdown.fat-time-dropdown {
+    width: 130px !important;
+    min-width: 130px !important;
+    max-width: 130px !important;
+    line-height: 17px !important;
+}
+
+.fat-sb-employee-form  .fat-checkbox-dropdown-wrap .sumo_assign-services{
+    width: 160px;
+}
+.fat-sb-employee-form .fat-bt-remove-work-hour{
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+.fat-checkbox-dropdown-wrap {
+    display: inline-flex;
+    position: relative;
+    top: -2px;
+}
+.toolbox-action-group .fat-checkbox-dropdown-wrap {
+    display: inline-flex;
+    top: 0px;
+}
+.fat-checkbox-dropdown-wrap .SumoSelect .select-all.partial > span i,
+.fat-checkbox-dropdown-wrap .SumoSelect .select-all.selected > span i,
+.fat-checkbox-dropdown-wrap .SumoSelect > .optWrapper.multiple > .options li.opt.selected span i {
+    background-color: #2185d0;
+}
+
+.fat-checkbox-dropdown-wrap .SumoSelect.open .search-txt,
+.fat-checkbox-dropdown-wrap .SumoSelect.open .search-txt:focus,
+.fat-checkbox-dropdown-wrap .SumoSelect.open .search-txt:hover,
+.fat-checkbox-dropdown-wrap .SumoSelect.open .search-txt:active {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    padding-top: 8px;
+}
+
+.fat-checkbox-dropdown-wrap .SumoSelect > .CaptionCont > label > i {
+    background-image: none;
+    text-align: center;
+    opacity: 1;
+}
+
+.fat-checkbox-dropdown-wrap .SumoSelect > .CaptionCont > label > i:before {
+    content: "\f0d7";
+    font-family: Dropdown;
+}
+
+.fat-checkbox-dropdown-wrap .SumoSelect > .CaptionCont {
+    border: 1px solid rgba(34, 36, 38, .15);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding: 11.5px;
+    line-height: 1em;
+}
+
+.fat-checkbox-dropdown-wrap .SumoSelect > .CaptionCont:hover {
+    border-color: rgba(34, 36, 38, .35);
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.fat-sb-work-hour-wrap .fat-sb-bottom-action-group {
+    padding-left: 70px;
+}
+
+.fat-fl-right {
+    float: right;
+}
+
+.fat-text-right {
+    text-align: right;
+}
+
+.fat-text-center {
+    text-align: center;
+}
+
+.daterangepicker.show-calendar {
+    z-index: 999999;
+}
+
+.daterangepicker.show-calendar .drp-buttons .btn {
+    font-weight: 400;
+    background: transparent;
+    border: solid 1px #c6c6c6;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+
+}
+
+.daterangepicker.show-calendar .drp-buttons .btn,
+.daterangepicker.show-calendar .drp-buttons .btn:focus,
+.daterangepicker.show-calendar .drp-buttons .btn:active {
+    outline: none;
+}
+
+.daterangepicker.show-calendar .drp-buttons .btn.cancelBtn:hover {
+    background-color: #ddd;
+}
+
+.daterangepicker.show-calendar .drp-buttons .btn.applyBtn:hover {
+    background-color: #2185d0;
+    color: #fff;
+    border-color: #2185d0;
+}
+
+.daterangepicker td.in-range.available:not(.off):not(.end-date):not(.start-date) {
+    background-color: #8ecbe6 !important;
+}
+
+input.date-range-picker {
+    min-width: 300px;
+}
+.toolbox-action-group .date-input input.date-range-picker,
+.toolbox-action-group .input input[type="text"]{
+    line-height: 1em;
+    min-height: 18px;
+}
+
+.toolbox-action-group .date-input input.date-range-picker{
+    font-size: 13px;
+}
+
+
+.toolbox-action-group .fat-sb-search {
+    background-color: #fff;
+    min-width: 300px;
+}
+
+.fat-sb-booking-container .toolbox-action-group .fat-sb-search {
+    min-width: 200px;
+}
+
+.fat-sb-booking-container input.date-range-picker {
+    min-width: 250px;
+}
+
+.toolbox-action-group .fat-sb-button-group {
+    display: inline-block;
+    float: right;
+}
+
+.fat-sb-google-map-wrap {
+    border: solid 1px #ddd;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.fat-sb-google-map-wrap .fat-sb-google-map {
+    width: 100%;
+    height: 300px;
+}
+
+.pac-container {
+    z-index: 999999;
+}
+
+.fat-sb-map-search-box {
+    top: 5px !important;
+    max-width: 300px;
+}
+
+.toolbox-action-group .ui.multiple.search.dropdown > .text {
+    margin: 0;
+    padding-left: 25px;
+}
+
+.toolbox-action-group .selection.dropdown.multiple.has-icon i.field-icon {
+    top: 2px;
+    color: #dddddd;
+}
+
+.toolbox-action-group .ui.search.dropdown > div.menu > div.ui.search.input {
+    margin: 0;
+    background-color: transparent;
+    border: none;
+}
+
+.toolbox-action-group .ui.search.dropdown > div.menu > div.ui.search.input .text {
+    padding-left: 30px;
+}
+
+.toolbox-action-group .fat-checkbox-dropdown-wrap .SumoSelect > .CaptionCont {
+    padding: 8px;
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+
+.no-border-radius {
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important;
+}
+
+.SumoSelect .SumoUnder{
+    height: 100% !important;
+}
+.SumoSelect > .optWrapper.multiple > .options li.opt {
+    margin-bottom: 0px;
+}
+
+.one.fields > .ui.checkbox {
+    margin-left: 7px;
+}
+
+.field i.icon {
+    color: #a09b9b;
+}
+
+label[for] {
+    cursor: pointer !important;
+}
+
+.ui.table.fat-sb-list-booking {
+    margin-top: 0px;
+}
+
+.ui.list.fat-booking-status-list {
+    width: 100%;
+    text-align: right;
+}
+
+.ui.list.fat-booking-status-list > .item > .ui.label {
+    margin-right: 2px;
+}
+
+.ui.input.transparent.date-input {
+    background-color: #fff !important;
+}
+
+/** calendar layout */
+.fat-sb-calendar-container .fat-sb-calendar {
+    background-color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.fat-sb-calendar-container .fc-day-header.fc-widget-header {
+    padding: 10px 5px;
+}
+
+.fat-sb-calendar-container .fc-event-container .fc-content {
+    padding: 5px;
+}
+
+.fat-sb-calendar-container .fc-event-container .fc-content .fc-time {
+    display: none;
+}
+
+.fat-sb-calendar-container a.fc-event {
+    opacity: 0.9;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.fat-sb-calendar-container a.fc-event:hover {
+    opacity: 1;
+}
+
+.fat-sb-calendar-container .fc-toolbar button {
+    background: none !important;
+    text-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #ddd;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.fat-sb-calendar-container .fc-toolbar .fc-button-group button:not(:last-child) {
+    margin-right: 5px !important;
+}
+
+.ui.animated.button:hover .hidden.content {
+    display: block;
+}
+
+.fc-toolbar .fc-icon-left-single-arrow:after,
+.fc-toolbar .fc-icon-right-single-arrow:after {
+    font-size: 150%;
+}
+
+.fc-toolbar button:hover,
+.fc-toolbar button.fc-state-active {
+    background-color: #1678c2 !important;
+    border-color: #fff;
+    color: #fff;
+}
+
+.fc-toolbar button:active,
+.fc-toolbar button:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.fc-toolbar button:hover .fc-icon-left-single-arrow:after,
+.fc-toolbar button:hover .fc-icon-right-single-arrow:after {
+    color: #fff !important;
+}
+
+.fat-sb-calendar-container .fc-unthemed td.fc-today {
+    background-color: transparent;
+}
+
+.fat-sb-calendar-container .fc-unthemed td.fc-today a.fc-day-number {
+    background-color: #1678c2 !important;
+    display: block;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 2px;
+    margin-right: 2px;
+    color: #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.fat-sb-calendar-container .fc-unthemed td.fc-today a:hover {
+    text-decoration: none;
+}
+
+.fat-sb-calendar .fc-basic-view .fc-body .fc-row {
+    min-height: 200px !important;
+    height: auto !important;
+}
+
+.fat-sb-calendar .fc-row.fc-rigid {
+    overflow: inherit !important;
+}
+
+.fat-sb-calendar .fc-day-grid-container {
+    height: auto !important;
+    min-height: 1200px !important;
+    overflow: inherit !important;
+}
+
+.fat-sb-calendar .fc-widget-content .ui.popup {
+    min-width: 200px;
+}
+
+.fat-sb-calendar .fc-time-grid .fc-event-container {
+    z-index: inherit;
+}
+
+.fat-sb-calendar-popup h4.ui.header {
+    margin-bottom: 10px;
+}
+
+.fat-sb-calendar-popup .fat-sb-calendar-employee {
+    margin-top: 5px;
+    position: relative;
+    min-height: 30px;
+}
+
+.fat-sb-calendar-popup .fat-sb-calendar-employee img {
+    width: 30px;
+    height: 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.fat-sb-calendar-popup .fat-sb-calendar-employee span {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    padding-left: 10px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-weight: 700;
+}
+
+.fat-sb-calendar-popup i.icon {
+    font-size: 13px;
+    color: #6e6e6e;
+    width: 30px;
+}
+
+.fat-sb-calendar-popup .fat-sb-calendar-time,
+.fat-sb-calendar-popup .fat-sb-calendar-service,
+.fat-sb-calendar-popup .fat-sb-calendar-location {
+    margin-bottom: 2px;
+}
+
+.fat-sb-calendar-edit button.ui.icon {
+    padding: 7px;
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.fat-sb-calendar-edit button.ui i {
+    color: #fff;
+}
+
+.fat-sb-settings-container .ui.grid .ui.steps .step {
+    cursor: pointer;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.fat-sb-settings-container .ui.grid .ui.steps i.icon {
+    color: #2185d0;
+    font-size: 3em;
+}
+
+.fat-sb-settings-container .ui.steps .step .title {
+    font-size: 1.4em;
+}
+
+.fat-sb-settings-container .ui.steps .step .description {
+    font-size: 1em;
+}
+
+.fat-sb-header {
+    padding: 10px;
+    background-color: #fff;
+    border: solid 1px #d4d4d5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.fat-sb-header .fat-sb-header-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 22px;
+}
+
+.ui.card > .content > .header.fat-inline,
+.fat-inline {
+    display: inline-block;
+}
+
+.fat-semantic-container .ui.card .content.has-button-group .header {
+    position: relative;
+    display: inline-block;
+    top: -50%;
+    -webkit-transform: translateY(50%);
+    -moz-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    -o-transform: translateY(50%);
+    transform: translateY(50%);
+}
+
+.fat-sb-services-container .ui.grid .row.owl-carousel {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.fat-sb-employees-container button.ui.icon.button.fat-bt-add {
+    margin-left: 10px;
+    padding: 0.5em;
+    font-size: 12px;
+}
+
+.ui.divided.list.no-border > .item {
+    border: none;
+}
+
+.fat-sb-intro-heading {
+    font-size: 20px;
+}
+
+.fat-sb-intro-heading.negative {
+    color: #e74c3c;
+}
+
+.fat-sb-intro-heading.green {
+    color: #27ae60;
+}
+
+.fat-sb-intro-container .ui.grid .five.wide.column {
+    width: 33.333% !important;
+}
+
+@media (max-width: 768px) {
+    .fat-sb-intro-container .ui.grid .five.wide.column {
+        width: 100% !important;
+    }
+}
+
+.fat-sb-message {
+    position: fixed;
+    top: 50px;
+    right: 30px;
+    padding: 15px 30px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #099be0;
+    color: #fff;
+    font-size: 14px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-transform: translateX(150%);
+    -moz-transform: translateX(150%);
+    -ms-transform: translateX(150%);
+    -o-transform: translateX(150%);
+    transform: translateX(150%);
+    -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    min-width: 250px;
+    text-align: center;
+    z-index: 99999999;
+
+}
+
+.fat-sb-message i.icon {
+    margin-right: 15px;
+}
+
+.fat-sb-message.red {
+    background-color: #db2828;
+}
+
+.fat-sb-message.orange {
+    background-color: #dbb940;
+}
+
+.fat-sb-message.show-up {
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+    transform: translateX(0px);
+}
+
+.ui.modal.fat-sb-confirm-popup .ui.header {
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+}
+
+.ui.modal.fat-sb-confirm-popup .actions > .button.fat-sb-bt-confirm {
+    padding-top: 0.55em;
+    padding-bottom: 0.55em;
+    margin-left: 0.5em;
+}
+
+.fat-sb-services-container .ui.card {
+    overflow: hidden;
+}
+
+.fat-sb-services-container .ui.card .owl-carousel .owl-stage-outer {
+    overflow: inherit;
+}
+
+.ui.modal a.fat-bt-add-inline i {
+    color: #2185d0;
+}
+
+.ui.modal a.fat-bt-add-inline {
+    opacity: 0.8;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-left: 5px;
+}
+
+.ui.modal a.fat-bt-add-inline:hover {
+    opacity: 1;
+}
+
+.ui.items .content .meta span {
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.fat-sb-loading-container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 9999999;
+    top: 0;
+    left: 0;
+}
+
+.fat-sb-loading-container .ui.segment {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    width: 200px;
+    height: 70px;
+    border: none;
+}
+
+.fat-sb-loading-container .ui.segment > .ui.dimmer {
+    background-color: #2185d0;
+}
+
+.fat-sb-loading-container .ui.small.loader {
+    padding-top: 2.2em;
+}
+
+.fat-sb-not-found {
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 1.5rem 2rem;
+}
+
+td .fat-sb-not-found {
+    padding: 0.2rem;
+}
+
+.owl-nav.disabled,
+.owl-dots.disabled {
+    display: none;
+}
+
+.ui.grid .column.row .ui.fluid.placeholder {
+    width: 100%;
+    margin: 0px 15px;
+}
+
+.fat-sb-list-employees-services td.td-20 {
+    width: 20px;
+}
+
+.fat-sb-list-employees-services td.td-150 {
+    width: 150px;
+}
+
+.fat-sb-list-employees-services td.td-90 {
+    width: 90px;
+}
+
+.fat-sb-list-locations .item .fat-loc-address,
+.fat-sb-list-locations .item .fat-loc-description {
+    display: block;
+}
+
+.fat-item-bt-inline[data-title] ~ .ui.popup {
+    padding: 10px;
+}
+
+.fat-item-bt-inline[data-title] ~ .ui.popup .header {
+    display: none;
+}
+
+.fat-item-bt-inline[data-title] ~ .ui.popup .content {
+    padding-top: 0px;
+}
+
+.SumoSelect.fat-loading {
+    position: relative;
+    display: block;
+}
+
+.SumoSelect.fat-loading .ui.loader {
+    position: absolute;
+    top: 8px;
+    left: 88%;
+}
+
+.SumoSelect.fat-loading label i,
+.SumoSelect.fat-loading label i:before {
+    display: none;
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+    img.fat-img-150 {
+        width: 120px !important;
+        height: 120px !important;
+    }
+
+    .ui.card > .fat-sb-button-group {
+        right: 5px;
+        top: 5px;
+    }
+}
+
+.fat-semantic-container .ui.pagination {
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.fat-semantic-container .ui.pagination .ui.button {
+    background-color: transparent;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    min-width: 45px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.fat-semantic-container .ui.pagination .ui.button {
+    border-bottom: solid 1px #ddd;
+    border-top: solid 1px #ddd;
+    border-right: solid 1px #ddd;
+}
+
+.fat-semantic-container .ui.pagination .ui.button.nav-last {
+    border-top-right-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    border-bottom-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+}
+
+.fat-semantic-container .ui.pagination .ui.button.nav-first {
+    border-top-left-radius: 4px;
+    -webkit-border-top-left-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    border-bottom-left-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-left: solid 1px #ddd;
+}
+
+.fat-semantic-container .ui.pagination .ui.button i {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.fat-semantic-container .ui.pagination .ui.button:not(.nav-disabled).active,
+.fat-semantic-container .ui.pagination .ui.button:not(.nav-disabled):hover {
+    background-color: #2185d0;
+    border-bottom-color: #2185d0;
+    border-top-color: #2185d0;
+    border-right-color: #2185d0;
+    color: #fff;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+}
+
+.fat-semantic-container .ui.pagination .ui.button:focus,
+.fat-semantic-container .ui.pagination .ui.button:active {
+    outline: none;
+    box-shadow: none;
+}
+
+.fat-semantic-container .ui.pagination .ui.button.nav-disabled {
+    cursor: not-allowed;
+}
+
+.ui.input.ui-search > a.fat-close {
+    color: rgba(0, 0, 0, .87);
+    opacity: 0.5;
+    display: none;
+}
+
+.ui.input.ui-search > input:focus ~ a.fat-close,
+.ui.input.ui-search > a.fat-close:hover {
+    opacity: 1;
+}
+
+.ui.input.ui-search.active-search a.fat-close {
+    display: inline-block;
+}
+
+.date-picker-wrap {
+    position: relative;
+}
+
+.date-picker-wrap.has-icon > i {
+    position: absolute;
+    top: 10px;
+    left: 14px;
+    opacity: 0.5;
+}
+
+.date-picker-wrap.has-icon > input.date-picker {
+    padding-left: 36px !important;
+}
+
+.date-picker-wrap.has-icon > input.date-picker:focus ~ i.icon {
+    opacity: 1;
+}
+
+.ui.dropdown.fat-loading,
+.fat-loading {
+    position: relative;
+}
+
+.ui.dropdown .ui.button.loading,
+.ui.dropdown .ui.loading.loading.loading.loading.loading.loading.button,
+.fat-loading > .ui.button.loading,
+.fat-loading > .ui.loading.loading.loading.loading.loading.loading.button {
+    position: absolute;
+    right: 7px;
+    top: 50%;
+    width: 20px;
+    height: 20px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    cursor: default;
+}
+
+.ui.dropdown .ui.loading.button:before,
+.fat-loading > .ui.loading.button:before {
+    border-color: rgba(0, 0, 0, .3);
+}
+
+.ui.dropdown.fat-loading .dropdown.icon {
+    opacity: 0;
+}
+
+.datepickers-container > .datepicker {
+    z-index: 99999;
+}
+
+.datepickers-container .datepicker--day-name {
+    color: #000;
+    text-transform: none;
+    font-weight: 600;
+}
+
+.datepickers-container .datepicker--nav-title {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.datepickers-container .datepicker--cell:not(.-disabled-):hover,
+.datepickers-container .datepicker--cell.-selected-:not(.-disabled-),
+.datepickers-container .datepicker--cell:not(.-other-month-):hover,
+.datepickers-container .datepicker--cell.-selected-:not(.-other-month-),
+.datepickers-container .datepicker--cell.-selected-.-current- {
+    color: #fff;
+    background-color: #357ebd;
+}
+
+.datepickers-container .datepicker--cell.-current- {
+    color: #357ebd;
+}
+
+.datepickers-container .datepicker--cell.datepicker--cell-day.-disabled-,
+.datepickers-container .datepicker--cell.datepicker--cell-day.-other-month- {
+    cursor: not-allowed;
+    background-color: transparent;
+}
+
+.datepickers-container .datepicker--cell.datepicker--cell-day.fat-slot-not-free {
+    color: #9f3a38 !important;
+    opacity: 0.5;
+}
+
+.ui.modal.fat-sb-booking-form .fat-sb-booking-time-wrap .item.disabled {
+    display: none !important;
+}
+
+.ui.dropdown.search > .menu > .scrolling.menu {
+    height: auto;
+    max-height: none !important;
+}
+
+.fat-sb-coupon-wrap .fat-bt-apply-coupon {
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top-left-radius: 0px;
+    -webkit-border-top-left-radius: 0px;
+    -moz-border-radius-topleft: 0px;
+    border-bottom-left-radius: 0px;
+    -webkit-border-bottom-left-radius: 0px;
+    -moz-border-radius-bottomleft: 0px;
+}
+
+.fat-sb-coupon-wrap #b_coupon_code {
+    border-top-right-radius: 0px;
+    -webkit-border-top-right-radius: 0px;
+    -moz-border-radius-topright: 0px;
+    border-bottom-right-radius: 0px;
+    -webkit-border-bottom-right-radius: 0px;
+    -moz-border-radius-bottomright: 0px;
+
+}
+
+.fat-sb-service-employee > .menu {
+    overflow: hidden !important;
+}
+
+.ui.dropdown .menu .item img.avatar,
+.ui.dropdown a.ui.label img.avatar {
+    height: 22px !important;
+    width: 22px !important;
+}
+
+.fat-sb-booking-container .ui.label {
+    background-color: #b5b5b5;
+}
+
+.fat-sb-list-booking span.extra-info {
+    display: block;
+    font-size: 12px;
+    color: #9d9d9d;
+    line-height: 1.1em;
+}
+
+.fat-sb-payment-booking-info ul,
+.fat-sb-payment-booking-info ul li {
+    display: inline-block;
+    width: 100%;
+}
+
+.fat-sb-payment-booking-info ul li {
+    margin-bottom: 4px;
+}
+
+.fat-sb-payment-booking-info ul li label {
+    width: 80%;
+    float: left;
+    text-align: right;
+}
+
+.fat-sb-payment-booking-info ul li > span {
+    float: left;
+    width: 20%;
+    text-align: right;
+}
+
+.fat-sb-payment-booking-info span.total,
+.fat-sb-payment-booking-info span.sub-total,
+.fat-sb-payment-booking-info span.discount {
+    font-weight: 600;
+}
+
+.fat-checkbox-dropdown-wrap .SumoSelect > .optWrapper > .options {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.fat-checkbox-dropdown-wrap .SumoSelect > .optWrapper > .options li.opt {
+    padding: 3px 6px;
+}
+
+.fat-checkbox-dropdown-wrap .SumoSelect > .optWrapper > .options li.group {
+    margin-bottom: 0px;
+}
+
+.fat-checkbox-dropdown-wrap .SumoSelect > .optWrapper > .options li.group > label {
+    padding: 0px 6px;
+}
+
+.ui.popup[data-popup-id="popup_bt_update_service"] {
+    max-width: 480px;
+}
+
+.fat-semantic-container table.ui.single.line tr {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.fat-semantic-container table.ui.single.line tr:hover {
+    background-color: rgba(221, 221, 221, 0.5);
+}
+
+.fat-semantic-container table.ui.single.line td .fat-item-bt-inline {
+    opacity: 0;
+    -webkit-transition: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
+    -ms-transition: opacity 0.2s;
+    -o-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+}
+
+.fat-semantic-container table.ui.single.line tr:hover td .fat-item-bt-inline {
+    opacity: 1;
+}
+
+.fat-sb-settings-container .ui.grid .item {
+    -webkit-transition: background-color 0.2s;
+    -moz-transition: background-color 0.2s;
+    -ms-transition: background-color 0.2s;
+    -o-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(34, 36, 38, .15);
+    padding: 20px;
+    cursor: pointer;
+    min-height: 110px;
+    position: relative;
+}
+
+.fat-sb-settings-container .ui.grid .item:hover {
+    background-color: #f1f1f1;
+}
+
+.fat-sb-settings-container .ui.grid .ui.items .item .image {
+    width: 60px;
+}
+
+.fat-sb-settings-container .ui.grid .item .image i.icon {
+    font-size: 3em;
+    color: #2185d0;
+    position: relative;
+    top: 0.3em;
+    background-color: transparent;
+}
+
+.fat-sb-settings-container .ui.dimmer {
+    background-color: transparent;
+}
+
+.fat-sb-settings-container .ui.dimmer .ui.loader {
+    top: 10px;
+    right: 10px;
+    left: auto;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+}
+
+.fat-sb-settings-container .ui.dimmer .ui.loader:before {
+    border-color: rgba(33, 133, 208, 0.3);
+}
+
+.fat-sb-settings-container .ui.dimmer .ui.loader:after {
+    border-color: rgba(33, 133, 208, 1) transparent transparent;
+}
+
+.fat-setting-modal .ui.dropdown .menu > .scrolling.menu {
+    overflow: hidden;
+}
+
+.fat-setting-modal .fat-test-send-sms-wrap button,
+.fat-setting-modal .fat-test-send-mail-wrap button {
+    max-width: 15%;
+}
+
+.fat-setting-modal .fat-test-send-sms-wrap .ui.input,
+.fat-setting-modal .fat-test-send-mail-wrap .ui.input {
+    width: 84% !important;
+}
+
+.fat-setting-modal .field a.fat-show-send-mail {
+    color: #2185d0;
+    opacity: 0.8;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.fat-setting-modal .field a.fat-show-send-mail:hover {
+    opacity: 1;
+}
+
+.fat-sb-currency-dic .currency-symbol {
+    float: right;
+}
+
+.fat-sb-currency-dic.ui.dropdown > .text {
+    display: block;
+    margin-right: 5px;
+
+}
+
+.fat-setting-modal .schedule-item .ui.dropdown.fat-time-dropdown {
+    width: 180px;
+    min-width: 180px;
+    max-width: 180px;
+}
+
+.fat-setting-modal .ui.form .inline.fields label[for="service_available"]{
+    margin-right: 0px;
+}
+
+.fat-setting-modal .fields.service-available .ui.checkbox label{
+    padding-left: 20px;
+}
+.fat-sb-custom-css-container pre.fat-sb-ace-editor {
+    height: 300px;
+    width: 100%;
+    margin: 0px;
+}
+
+.fat-sb-custom-css-container .ace-container {
+    border: solid 1px #ddd;
+}
+
+.fat-sb-custom-css-container .actions {
+    text-align: right;
+    padding-right: 15px;
+    margin-bottom: 30px;
+}
+
+.fat-sb-import-export-container .description,
+.fat-sb-import-export-container .button {
+    margin-top: 20px;
+}
+
+.fat-sb-import-export-container form input[type="submit"] {
+    margin-top: 15px;
+    background-color: #2185d0;
+    color: #fff;
+    text-shadow: none;
+    background-image: none;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    line-height: 1;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    height: auto;
+    font-size: 14px;
+    font-family: inherit;
+}
+
+.fat-sb-import-export-container form input[type="submit"]:hover {
+    background-color: #1678c2;
+}
+
+.fat-sb-import-export-container .fat-sb-select-list .checkbox:not(:last-child) {
+    margin-right: 10px;
+}
+
+.fat-sb-import-export-container i {
+    color: #2185d0;
+}
+
+.fat-sb-import-export-container input[type="file"] {
+    font-family: inherit;
+}
+
+.fat-sb-import-export-container .notice-error {
+    font-weight: 600;
+    color: #dc3232;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.fat-sb-import-export-container .notice-success {
+    font-weight: 600;
+    color: #46b450;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.fat-sb-settings-container .ui.grid > .five.wide.column {
+    width: 33.3333% !important;
+}
+
+.fat-sb-sms-template-container .fat-editor label{
+    bottom: 0px !important;
+    margin-bottom: 5px !important;
+}
+.fat-sb-sms-template-container .fat-editor textarea{
+    width: 100%;
+    padding: 5px 10px;
+}
+.fat-sb-email-template-container .ui.vertical.menu {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.fat-sb-email-template-container .ui.vertical.menu .ui.icon.ui-tooltip {
+    padding-left: 10px;
+    position: relative;
+    top: 1px;
+}
+.fat-sb-email-template-container .ui.vertical.menu .item.active .ui.icon.ui-tooltip {
+    color: #fff;
+}
+
+.fat-sb-email-template-container .ui.vertical.pointing.menu a.active {
+    background-color: #2185d0 !important;
+    color: #fff;
+}
+
+.fat-sb-email-template-container .ui.vertical.pointing.menu .active.item:after {
+    background-color: #2185d0 !important;
+}
+
+.fat-sb-email-template-container .field label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.fat-sb-email-template-container .fat-editor label {
+    position: relative;
+    bottom: -30px;
+    margin-bottom: 0px;
+}
+
+.fat-sb-email-template-container .ui.input {
+    width: 100%;
+}
+
+.fat-sb-email-template-container h4 {
+    display: inline-block;
+}
+
+.fat-sb-email-template-container .fat-sb-checkbox-wrap.right .ui.checkbox {
+    float: right;
+}
+
+.fat-sb-email-template-container .fields {
+    margin-bottom: 30px;
+}
+
+.fat-sb-email-template-container .fat-email-keys {
+    border: solid 1px #ddd;
+    margin-top: 30px;
+    padding: 15px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.fat-sb-email-template-container .fat-email-keys ul.list-email-key li {
+    margin-bottom: 5px;
+}
+
+.fat-sb-email-template-container .fat-email-keys ul.list-email-key li span {
+    display: inline-block;
+    min-width: 150px;
+}
+
+.fat-sb-email-template-container [data-position="top right"][data-tooltip]:after {
+    z-index: 99;
+}
+
+.fat-sb-calendar-container .fat-sb-calendar {
+    min-height: 500px;
+    position: relative;
+}
+
+.fat-sb-calendar-container .fat-sb-calendar-popup {
+    min-width: 180px;
+}
+
+.fat-sb-import-export-container .ui.loader:before,
+.fat-sb-calendar .ui.inverted.dimmer .ui.loader:before,
+.fat-sb-calendar-popup .fat-sb-calendar-edit  button.ui.button.loading:before{
+    border-color: rgba(33, 133, 208, 0.3);
+}
+
+.fat-sb-import-export-container .ui.loader:after,
+.fat-sb-calendar .ui.inverted.dimmer .ui.loader:after,
+.fat-sb-calendar-popup .fat-sb-calendar-edit  button.ui.button.loading:after{
+    border-color: rgba(33, 133, 208, 1) transparent transparent;
+
+}
+
+.fat-sb-calendar-popup .meta {
+    font-size: 12px !important;
+    padding-left: 33px;
+    color: #858585 !important;
+}
+
+.fat-sb-list-booking th.fat-sb-payment,
+.fat-sb-list-booking td.fat-sb-payment {
+    text-align: right !important;
+}
+
+.fat-sb-list-booking th.fat-sb-status,
+.fat-sb-list-booking td.fat-sb-status {
+    width: 150px;
+}
+
+.fat-sb-booking-form .fat-sb-employees-dic > .menu > .scrolling.menu,
+.fat-sb-booking-form .fat-sb-booking-time-wrap > .menu > .scrolling.menu{
+    max-height: 160px !important;
+}
+
+.fat-sb-calendar-popup .fat-sb-calendar-edit  button.ui.button.loading,
+.fat-sb-calendar-popup .fat-sb-calendar-edit  button.ui.button.loading:hover,
+.fat-sb-calendar-popup .fat-sb-calendar-edit  button.ui.button.loading:focus{
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.fat-sb-calendar-popup .fat-sb-calendar-edit  button.ui.button.loading i{
+    opacity: 0;
+}
+
+.fat-sb-header .fat-sb-booking-header-tooltip{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 16px;
+}
+.fat-sb-header .fat-sb-booking-header-tooltip a{
+    color: #343434;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    cursor: pointer;
+    display: inline-block;
+    text-underline: none;
+}
+
+.fat-sb-header .fat-sb-booking-header-tooltip a:hover{
+    color: #2185d0!important
+}
+
+.fat-sb-header .fat-sb-booking-header-tooltip a:focus,
+.fat-sb-header .fat-sb-booking-header-tooltip a:active{
+    outline: none;
+}
+
+.fat-sb-booking-header-tooltip .ui.popup{
+    min-width: 300px;
+}
+
+.fat-sb-booking-header-tooltip .ui.popup.popup-tooltip-shortcode{
+    min-width: 500px;
+    max-width: 90%;
+}
+
+
+.fat-sb-booking-header-tooltip .popup-tooltip-shortcode ul{
+    margin: 0;
+    padding: 0px 20px;
+    list-style: circle;
+}
+.fat-sb-booking-header-tooltip .popup-tooltip-shortcode li{
+    opacity: 0.6;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.fat-sb-booking-header-tooltip .popup-tooltip-shortcode li:hover{
+    opacity: 1;
+}
+.fat-sb-booking-header-tooltip .popup-tooltip-shortcode h5,
+.fat-sb-booking-header-tooltip .popup-tooltip-shortcode li span:not(.fat-sb-shortcode){
+    font-weight: 400;
+    display: block;
+}
+.fat-sb-booking-header-tooltip .popup-tooltip-shortcode li{
+    font-weight: 600;
+}
+
+#customer_chart_percent circle[fill="#808080"]{
+    display: none;
+}
+
+#customer_chart_percent,
+#customer_chart_percent .apexcharts-canvas{
+    max-height: 300px !important;
+    height: 300px !important;
+    min-height: 200px !important;
+}
+
+ul.fat-booking-summary{
+    padding-left: 20px;
+}
+.fat-booking-summary li span.quantity{
+    font-size: 24px;
+}
+.fat-booking-summary li span.label{
+    font-size: 18px;
+    padding-right: 10px;
+    min-width: 100px;
+    display: inline-block;
+}
+
+.ui.placeholder .ui.button.loading:before{
+    background-color: transparent;
+}
+
+.fat-sb-services-container .fat-sb-list-services-category .owl-item{
+    width: 20%;
+}
+
+.ui.items .item .fat-bt-group{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 0px;
+    letter-spacing: 0px;
+}
+
+.fat-no-margin{
+    margin: 0;
+}
+
+.form-wrap.form-builder .frmb{
+    min-height: 305px;
+}
+.form-builder-dialog{
+    min-width: 220px !important;
+}
+.form-builder-dialog .btn{
+    border: none;
+    padding: 8px 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-builder-dialog .btn:focus{
+    outline: none;
+}
+.form-builder-dialog .btn-danger{
+    background: #e0e1e2 none;
+}
+.form-builder-dialog .btn-success{
+    background: #2185d0 none;
+    color: #fff;
+}
+
+.fat-form-builder .form-actions.btn-group button{
+    padding: 6px 25px !important;
+    position: relative;
+}
+
+.fat-form-builder .form-actions.btn-group button.btn-primary{
+    background-color: #2185d0;
+}
+.fat-form-builder .form-actions.btn-group button.loading{
+    position: relative;
+    cursor: default;
+    text-shadow: none!important;
+    color: transparent!important;
+    opacity: 1;
+    pointer-events: auto;
+    -webkit-transition: all 0s linear,opacity .1s ease;
+    transition: all 0s linear,opacity .1s ease;
+}
+.fat-form-builder .form-actions.btn-group button.loading:before{
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    margin: -.64285714em 0 0 -.64285714em;
+    width: 1.28571429em;
+    height: 1.28571429em;
+    border-radius: 500rem;
+    border: .2em solid rgba(0,0,0,.15);
+}
+.fat-form-builder .form-actions.btn-group button.loading:after{
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    margin: -.64285714em 0 0 -.64285714em;
+    width: 1.28571429em;
+    height: 1.28571429em;
+    -webkit-animation: button-spin .6s linear;
+    animation: button-spin .6s linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    border-radius: 500rem;
+    border-color: #fff transparent transparent;
+    border-style: solid;
+    border-width: .2em;
+    -webkit-box-shadow: 0 0 0 1px transparent;
+    box-shadow: 0 0 0 1px transparent;
+}
+
+.fat-semantic-container .ui.form .fields:not(.fat-hidden):not(.fat-sb-hidden){
+    display: flex !important;
+}
+
+.fat-sb-get-customer-code-template h4{
+    margin-bottom: 15px;
+}
+.fat-sb-get-customer-code-template p.fat-field-description{
+    margin-top: 15px !important;
+}
+
+.fat-fl-left{
+    float: left;
+}
+
+.fat-text-red{
+    color: #d80505 ;
+}
+.fat-fw-bold{
+    font-weight: 700;
+}
+.daterangepicker.ltr{
+    z-index: 9999999 !important;
+}
+
+.fat-sb-booking-container .toolbox-action-group .fat-sb-search,
+.fat-sb-booking-container .toolbox-action-group .date-input{
+    top: 2px;
+}
+
+span.fat-sb-order-wrap{
+    position: relative;
+    height: 18px;
+    display: inline-flex;
+    flex-direction: column;
+}
+span.fat-sb-order-wrap i.icon{
+    margin: 0px;
+    position: relative;
+    cursor: pointer;
+    font-size: 16px;
+    color: #b1b1b1;
+}
+span.fat-sb-order-wrap i.icon.active{
+    color: #000;
+}
+span.fat-sb-order-wrap i.icon.asc{
+    top: -4px;
+    left: 0.5px;
+}
+span.fat-sb-order-wrap i.icon.desc{
+    bottom: 8px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.fat-user-role-modal > .content{
+    min-height: 300px;
+}
+
+.fat-sb-booking-header-tooltip .ui-tooltip,
+.fat-semantic-container .ui-tooltip{
+    background-color: transparent !important;
+    padding: 0px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.fat-sb-booking-header-tooltip .ui.popup,
+.fat-semantic-container .ui.popup{
+    height: auto;
+}
+
+
+@media (max-width: 991px) {
+    .toolbox-action-group .fat-fl-right{
+        float: left;
+    }
+    .toolbox-action-group button{
+        margin-top: 15px !important;
+    }
+}
+
+@media (max-width:767px) {
+    .fat-sb-header .fat-sb-header-title{
+        left: auto;
+        right: 0px;
+    }
+}
+
+/* fix missing modal for some theme */
+/*
+.modal-backdrop.in{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 9999;
+}
+
+.ui.modal.fat-semantic-container.in{
+    display: block;
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    z-index: 999999;
+    transform: translateX(-50%);
+}*/
+
+
+.fat-form-builder li.icon-hidden,
+.fat-form-builder .icon-autocomplete{
+    display: none;
+}
+
+/*.ui.modal.fat-sb-booking-form .fat-sb-booking-time-wrap .item.disabled{
+    display: none !important;
+}*/
+
+.fat-sb-employee-form .ui.image-field .fat-image-thumb img{
+    width: 150px;
+}
+
+
+.fat-customer-form .ui.dropdown.phone-code{
+    display: inline-block !important;
+    min-height: 2em;
+    padding-top: .68571429em;
+    padding-bottom: .68571429em;
+}
+.fat-customer-form  .ui.dropdown.phone-code i.dropdown.icon{
+    padding: .81666667em;
+}
+.fat-customer-form  .ui.dropdown.phone-code,
+.fat-customer-form  .ui.dropdown.phone-code .text{
+    width: 120px !important;
+    line-height: 1em;
+}
+.fat-customer-form  .ui.dropdown.phone-code .text{
+    font-size: 0px;
+}
+.fat-customer-form  .ui.dropdown.phone-code .text span{
+    font-size: 13px;
+}
+.fat-customer-form  .ui.dropdown.phone-code .text i{
+    margin-right: 5px !important;
+}
+.fat-customer-form  .ui.dropdown.phone-code .menu{
+    width: auto;
+    min-width: 300px;
+}
+.fat-customer-form  .ui.input.phone-number{
+    width: calc(100% - 130px) !important;
+    min-width: 100px;
+    max-width: 80%;
+}
+
+.ui.menu a.item{
+    border: none;
+    line-height: 1em;
+    height: auto;
+    margin: 0;
+}
+
+.apexcharts-canvas text{
+    font-size: 13px !important;
+}
+.fat-sb-settings-container .ui.items .item .image,
+.fat-sb-settings-container .ui.items .item .content{
+    padding-top: 10px;
+}
+
+@media (max-width: 600px) {
+    .fat-sb-insight-container  .apexcharts-canvas,
+    .fat-sb-insight-container  .apexcharts-canvas svg{
+        width: 100%;
+    }
+    .fat-sb-insight-container .row .twelve.wide.column{
+        margin-bottom: 15px;
+    }
+    .fat-semantic-container .ui.grid > .row > [class*="twelve wide"].column,
+    .fat-semantic-container .ui.grid > .column.row > [class*="twelve wide"].column,
+    .fat-semantic-container .ui.grid > [class*="twelve wide"].column,
+    .fat-semantic-container .ui.column.grid > [class*="twelve wide"].column{
+        width: 100% !important;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .fat-semantic-container .ui.grid{
+        margin: 0px !important;
+    }
+
+    .fat-sb-header img{
+        width: 120px;
+    }
+
+    .fat-sb-header .fat-sb-header-title{
+        font-size: 16px;
+    }
+
+    .toolbox-action-group > div{
+        margin-bottom: 5px;
+    }
+    .ui.grid .ui.card .content{
+        text-align: center;
+    }
+
+    .ui.table thead{
+        display: none !important;
+    }
+    .ui.table tbody td{
+        position: relative;
+        text-align: right;
+        padding-left: 100px !important;
+        margin-bottom: 10px;
+    }
+    .ui.table tbody td[data-label]:after{
+        position: absolute;
+        content: attr(data-label);
+        left: 10px;
+        top: 0px;
+        font-weight: 600;
+    }
+
+    .fat-sb-work-hour-item-wrap label{
+        display: block;
+    }
+    .fat-sb-work-hour-item-wrap .fat-checkbox-dropdown-wrap{
+        margin-top: 10px;
+    }
+    .fat-sb-work-hour-wrap .fat-sb-bottom-action-group{
+        padding-left: 0px !important;
+    }
+}
+.SumoSelect>.optWrapper{
+    width: auto !important;
+    min-width: 100% !important;
+}

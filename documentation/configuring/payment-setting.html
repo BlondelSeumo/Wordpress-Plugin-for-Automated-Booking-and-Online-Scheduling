@@ -1,0 +1,114 @@
+<!DOCTYPE HTML><html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>FAT Services Booking Documentation</title>
+    <link rel="stylesheet" href="../public/css/docs.css">
+    <script src="../public/js/nav.js"></script></head>
+
+<body>
+<div class="all">
+    <h1 class="vp-title">FAT Services Booking Documentation</h1>
+    <a class="vp-backto" href="https://codecanyon.net/user/roninwp" target="_blank">visit roninwp.com</a>
+    <section class="vp-docs">
+        <div class="vp-docs-menu">
+            <!-- menu -->
+        </div>
+        <div class="vp-docs-page"><h1>Payment Setting</h1>
+            <p>The payment setting provide feature to setting currency, currency symbol position (after or before) and payment method (onsite, paypal or stripe). To config please do follow:</p>
+            <ul class="bullet">
+                <li>Log into your WordPress admin panel.</li>
+                <li>Navigate to <strong>FAT Services Booking » Settings</strong>.</li>
+                <li>Click at <strong>Payments</strong></li>
+            </ul>
+            <p class="img-wrap">
+                <img src="../public/images/settings.png">
+                <figcaption> Settings screen.</figcaption>
+            </p>
+            <p class="img-wrap">
+                <img src="../public/images/payment_paypal.png">
+                <figcaption>Payment Settings screen.</figcaption>
+            </p>
+            <ul class="no-list-style">
+                <li><strong>1. Currency :</strong>
+                   At here, you can select currency for your site. At left of select, it is currency name and at right is currency symbol
+                </li>
+                <li><strong>2. Price symbol position:</strong>
+                    This is option that allow setting position of currency symbol. You can set at after (example: 50$) or before (example: $50)
+                </li>
+                <li><strong>3. Paypal :</strong>
+                    If you site allow payment via Paypal, please click at here. It will be show paypal config for your site:
+                    <ul>
+                        <li> 3.1: Paypal Mode: This is option that switch between sandbox mode (for test) or live mode.
+                            The PayPal Sandbox is a self-contained, virtual testing environment that mimics the live PayPal production environment.
+                            It provides a shielded space where you can initiate and watch your application process the requests you make to the PayPal APIs without touching any live PayPal accounts.
+                            After you code and debug your application, including testing all your PayPal API calls in the sandbox, move your application to PayPal's production environment to go live.
+                        </li>
+                        <li> 3.2: ClientID and Secret: to connect and payment via Paypal, you need setting for ClientID and Secret. This is information to connect to your Paypal account.</li>
+                        <li> 3.3: Success page and Error page: With payment via Paypal, it will be redirect to Paypal site for confirm and execute payment.
+                            After execute payment, Paypal will be redirect to your site and you need config success page and error page to display after Paypal redirect
+                        </li>
+                        <li>
+                        To get ClientID and Secret, please do follow:
+                        <ul>
+                            <li>Log in to your PayPal account at: https://developer.paypal.com </li>
+                            <li>Go to 'My App & Credentials' in Dashboard </li>
+                            <li>Click 'Create App'</li>
+                            <li>Typing App Name and click 'Create App'</li>
+                            <li>Now you can see 'ClientID' and Secret key</li>
+                            <li>
+                                <p class="img-wrap">
+                                    <img src="../public/images/paypal_create_app.png">
+                                </p>
+                                <p class="img-wrap">
+                                    <img src="../public/images/paypal_create_app_info.png">
+                                </p>
+                                <p class="img-wrap">
+                                    <img src="../public/images/paypal_create_app_secret.png">
+                                </p>
+                            </li>
+                        </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><strong>4. Stripe :</strong>
+                    As same as Paypal, you need setting 'Publish Key' and 'Secret key' if you want payment via Stripe.
+                    To get key, please read at here: <a href="https://stripe.com/docs/keys" target="_blank" rel="nofollow">https://stripe.com/docs/keys</a>
+                </li>
+
+                <li><strong>5. myPOS :</strong>
+                    <ul>
+                        <li> 5.1. myPOS Mode: This is option that switch between sandbox mode (for test) or live mode.
+                            The myPOS Sandbox is a self-contained, virtual testing environment that mimics the live myPOS production environment.
+                            After you code and debug your application, including testing all your myPOS API calls in the sandbox, move your application to myPOS's production environment to go live.
+                        </li>
+                        <li> 3.2. StoreID: is given when you add a new online store. It could be reviewed in your online banking at www.mypos.eu > menu Online > Online stores..</li>
+                        <li> 3.3. Client ID (or Wallet ID): You can view your myPOS Client number in your online banking at www.mypos.eu </li>
+                        <li> 3.4. myPOS private key: The Private Key for your store is generated in your online banking at www.mypos.eu > menu Online > Online stores > Keys</li>
+                        <li> 3.5. myPOS public certificate: The myPOS Public Certificate is available for download in your online banking at www.mypos.eu > menu Online > Online stores > Keys.</li>
+                         <li> 3.6. Key index: The Key Index assigned to the certificate could be reviewed in your online banking at www.mypos.eu > menu Online > Online stores > Keys. </li>
+                        <li> 3.7: Success page and Error page: With payment via Paypal, it will be redirect to Paypal site for confirm and execute payment.
+                            After execute payment, Paypal will be redirect to your site and you need config success page and error page to display after Paypal redirect
+                        </li>
+                        <li>
+                            To get StoreID, Client ID, private key,.. you can see more here:
+                            <p class="video-wrap">
+                                <iframe width="1120" height="630" src="https://www.youtube.com/embed/NzvUjjIJznM?start=52&rel=0" frameborder="0"
+                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <figcaption> Video how to use booking form builder.</figcaption>
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+    </section>
+</div>
+<link rel="stylesheet" href="../public/css/prettify.css">
+<script type="text/javascript" src="../public/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="../public/js/prettify.js"></script>
+<script type="text/javascript" src="../public/js/docs.js"></script>
+</body>
+
+</html>

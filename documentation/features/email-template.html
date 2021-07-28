@@ -1,0 +1,55 @@
+<!DOCTYPE HTML><html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>FAT Services Booking Documentation</title>
+    <link rel="stylesheet" href="../public/css/docs.css">
+    <script src="../public/js/nav.js"></script></head>
+
+<body>
+<div class="all">
+    <h1 class="vp-title">FAT Services Booking Documentation</h1>
+    <a class="vp-backto" href="https://codecanyon.net/user/roninwp" target="_blank">visit roninwp.com</a>
+    <section class="vp-docs">
+        <div class="vp-docs-menu">
+            <!-- menu -->
+        </div>
+        <div class="vp-docs-page"><h1>Email Template</h1>
+            <p><strong>To send email notification, you need config email setting <a href="../configuring/email-setting.html">at here</a></strong></p>
+            <p>Every time a customer create a nappoiment, an email will be sent to customers and employees</p>
+            <p>It have four notification types for customer and employee:Appointment Pending, Appointment Approved, Appointment Rejected, Appointment Canceled</p>
+            <ul class="bullet">
+                <li><strong>Appointment Pending:</strong> At default, when client create appointment, it will be have pending status and this email will be send when the appointment is created.
+                    You will need to manual confirm it in back-end by use update appointment status </li>
+                <li><strong>Appointment Approved:</strong>This is email will be send when admin update appointment status to approved, or when client create appointment from frontend and you have set 'Default Appointment Status' as approved in General setting</li>
+                <li><strong>Appointment Rejected:</strong> This is email will be send after the appointment is rejected by admin</li>
+                <li><strong>Appointment Canceled:</strong> This is email will be send after the appointment is canceled by admin</li>
+            </ul>
+            <p>To setting email template, please do follow:</p>
+            <ul class="bullet">
+                <li>Log into your WordPress admin panel.</li>
+                <li>Navigate to <strong>FAT Services Booking » Email Template</strong>.</li>
+                <li>Select and setting template for each appointment status .</li>
+            </ul>
+            <p class="img-wrap">
+                <img src="../public/images/email_template.png">
+                <figcaption> Email template.</figcaption>
+            </p>
+
+            <ul class="no-list-style">
+                <li><strong>1. Template:</strong>At here you can switch template for each appointment status (Pending, Approved, Rejected, Canceled) </li>
+                <li><strong>2. Keys: </strong>This is keys that you can use in email template. It will be replace value when sent email </li>
+                <li><strong>3. Customer template: </strong>This is section what you can config email for customer. You can endable/disable send mail for customer via green switch button (5)  .</li>
+                <li><strong>4. Employee template: </strong>This is section what you can config email for employee. You can endable/disable send mail for customer via green switch button (6)  .</li>
+            </ul>
+
+        </div>
+    </section>
+</div>
+<link rel="stylesheet" href="../public/css/prettify.css">
+<script type="text/javascript" src="../public/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="../public/js/prettify.js"></script>
+<script type="text/javascript" src="../public/js/docs.js"></script>
+</body>
+
+</html>

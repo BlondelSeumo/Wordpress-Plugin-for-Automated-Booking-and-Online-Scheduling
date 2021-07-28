@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>FAT Services Booking Documentation</title>
+    <link rel="stylesheet" href="../public/css/docs.css">
+    <script src="../public/js/nav.js"></script>
+</head>
+
+<body>
+<div class="all">
+    <h1 class="vp-title">FAT Services Booking Documentation</h1>
+    <a class="vp-backto" href="https://codecanyon.net/user/roninwp" target="_blank">visit roninwp.com</a>
+    <section class="vp-docs">
+        <div class="vp-docs-menu">
+            <!-- menu -->
+        </div>
+        <div class="vp-docs-page"><h1>How to use price package</h1>
+
+            <p>FAT Service Booking has a shortcode what display booking history for your client. Each client will be have customer code, this code will be use when your client want to see booking history</p>
+            <p>To use booking history at frontend, please do follow:</p>
+
+            <ul class="bullet">
+                <li>Log into your WordPress admin panel.</li>
+                <li>Navigate to <strong>Pages » Add new pages</strong>.</li>
+                <li>Input page title and paste this shortcode to Editor: [fat_sb_booking_history].
+                    If you use page builder (ex: Visual Composer or Element), please add 'Text' element and paste this shortcode to editor of this element</li>
+                <li>Click 'Publish' button to save and publish page.</li>
+            </ul>
+
+            <p class="img-wrap">
+                <img src="../public/images/create_booking_history_page.png">
+                <figcaption> Create booking history page.</figcaption>
+            </p>
+
+            <p class="img-wrap">
+                <img src="../public/images/booking_history.png">
+                <figcaption> Booking history at frontend.</figcaption>
+            </p>
+
+            <ul class="no-list-style">
+                <li><strong>1. Customer code:</strong> to see booking history, your client need input customer code at here and click 'View history'</li>
+                <li><strong>2. View history:</strong> After input customer code, click this button to get history</li>
+                <li><strong>3. Get customer code:</strong> To get customer code, please click at 'Get customer code', and fill email to popup. Plugin will be send customer code to they email</li>
+                <li><strong>4. Cancel:</strong> If you want to cancel booking, please hover mouse on booking that you want cancel and click 'Cancel', plugin will be request re-input customer code before cancel.
+                    Plugin only allow cancellation of reservations that are pending.</li>
+            </ul>
+
+            <p class="img-wrap">
+                <img src="../public/images/allow_cancel_booking.png">
+                <figcaption> Enable/Disable cancel booking.</figcaption>
+            </p>
+            <p><strong>Enable/Disable cancel in booking history</strong></p>
+            <p>In some case, if you want disable cancel booking, please go to 'FAT Service Booking' -> Setting, click 'General Setting' and select 'No' at 'Allow client cancel booking'</p>
+        </div>
+    </section>
+</div>
+<link rel="stylesheet" href="../public/css/prettify.css">
+<script type="text/javascript" src="../public/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="../public/js/prettify.js"></script>
+<script type="text/javascript" src="../public/js/docs.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>FAT Services Booking Documentation</title>
+    <link rel="stylesheet" href="../public/css/docs.css">
+    <script src="../public/js/nav.js"></script>
+</head>
+
+<body>
+<div class="all">
+    <h1 class="vp-title">FAT Services Booking Documentation</h1>
+    <a class="vp-backto" href="https://codecanyon.net/user/roninwp" target="_blank">visit roninwp.com</a>
+    <section class="vp-docs">
+        <div class="vp-docs-menu">
+            <!-- menu -->
+        </div>
+        <div class="vp-docs-page"><h1>How to use shortcode at frontend</h1>
+
+            <p>FAT Service Booking have six layouts for booking form: Step, Step Vertical, Booking form with tab, Booking form no tab, One service, Popup and one service&provider. Corresponding to each layout it will have a shortcode to display the form, you only copy and paste shortcode to page content to display booking form </p>
+
+            <ul>
+                <li>Step layout: To use this layout, please copy and paste this shortcode <strong>[fat_sb_booking]</strong></li>
+				<li>Step vertical layout: To use this layout, please copy and paste this shortcode <strong>[fat_sb_booking layout="step-vertical"]</strong></li>
+                <li>Booking form with tab: To use this layout, please copy and paste this shortcode  <strong>[fat_sb_booking layout="services"]</strong>
+                    <p>By default, the plugin will hide the service categories and location. If you want display service categories and location, you need add parameter below:
+                    <ul>
+                        <li>show-category="1" : This is the parameter to display service categories, and shortcode is [fat_sb_booking layout="services" show-category="1"]</li>
+                        <li>show-location="1" :  This is the parameter to display location, and shortcode is [fat_sb_booking layout="services" show-location="1"]</li>
+                    </ul>
+                    </p>
+                </li>
+                <li>Booking form with tab: To use this layout, please copy and paste this shortcode  <strong>[fat_sb_booking layout="services-no-tab"]</strong>
+                    <p>By default, the plugin will hide the service categories and location. If you want display service categories and location, you need add parameter below:
+                    <ul>
+                        <li>show-category="1" : This is the parameter to display service categories, and shortcode is [fat_sb_booking layout="services" show-category="1"]</li>
+                        <li>show-location="1" :  This is the parameter to display location, and shortcode is [fat_sb_booking layout="services" show-location="1"]</li>
+                    </ul>
+                    </p>
+                </li>
+                <li>One Service: If you have one service for your site, please use this layout by copy and paste this shortcode  <strong>[fat_sb_booking layout="one-services"]</strong> </li>
+                <li>Popup: If you want to display booking form as popup, please use this layout by copy and paste this shortcode  <strong>[fat_sb_booking_button]</strong>. It will be display button booking, if you want customize button (ex: color, title ...) you can add parameters (label, background_color, text_color, font_size) to shortcode.
+                    Exam: [fat_sb_booking_button label="Booking now" background_color="#2185d0" color="#fff" font_size="14px"]</li>
+                <li>Date first: This shorcode allows customers to choose the date, time and service they want to book. The system will filter out the list of available employees during that period.
+                    To use this layout, please copy and paste this shortcode  <strong>[fat_sb_booking layout="date-first"]</strong> </li>
+            </ul>
+
+            <p class="img-wrap">
+                <img src="../public/images/booking_form_step.png">
+                <figcaption> Step booking form.</figcaption>
+            </p>
+			
+			 <p class="img-wrap">
+                <img src="../public/images/step-vertical.jpg">
+                <figcaption> Step vertical booking form.</figcaption>
+            </p>
+
+            <p class="img-wrap">
+                <img src="../public/images/booking_form_with_tab.png">
+                <figcaption> Booking form with tab.</figcaption>
+            </p>
+
+            <p class="img-wrap">
+                <img src="../public/images/booking_form_no_tab.png">
+                <figcaption> Booking form no tab.</figcaption>
+            </p>
+            <p class="img-wrap">
+                <img src="../public/images/booking_popup.png">
+                <figcaption> Booking popup.</figcaption>
+            </p>
+
+            <p class="img-wrap">
+                <img src="../public/images/date-first.png">
+                <figcaption> Date first shortcode.</figcaption>
+            </p>
+        </div>
+    </section>
+</div>
+<link rel="stylesheet" href="../public/css/prettify.css">
+<script type="text/javascript" src="../public/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="../public/js/prettify.js"></script>
+<script type="text/javascript" src="../public/js/docs.js"></script>
+</body>
+
+</html>

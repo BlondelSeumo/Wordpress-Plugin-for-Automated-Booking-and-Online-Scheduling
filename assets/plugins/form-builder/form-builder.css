@@ -1,0 +1,125 @@
+.fat-form-builder{
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.fat-form-builder li[data-type="file"],
+.fat-form-builder li[data-type="button"]{
+    display: none;
+}
+
+.fat-form-builder .form-elements .form-group.access-wrap{
+    display: none;
+}
+
+.fat-form-builder .form-wrap.form-builder .stage-wrap{
+    border: dotted 1px #c3c3c3 !important;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #fff !important;
+}
+
+.fat-form-builder .form-wrap.form-builder .frmb .field-label,
+.fat-form-builder .form-wrap.form-builder .frmb .legend{
+    font-size: 14px;
+    display: inline-block;
+    line-height: 1em;
+}
+
+.fat-form-builder .form-field input.form-control,
+.fat-form-builder .form-field input.form-control{
+    border: solid 1px #c3c3c3;
+}
+
+.fat-form-builder .form-wrap.form-builder .frmb>li{
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.fat-form-builder .form-wrap.form-builder .frmb>li:hover{
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+
+.fat-form-builder .form-wrap.form-builder .frmb .form-elements .false-label:first-child,
+.fat-form-builder .form-wrap.form-builder .frmb .form-elements label:first-child{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.form-builder-dialog{
+    overflow: hidden !important;
+}
+
+.fat-form-builder .form-wrap.form-builder .frmb .sortable-options .option-selected{
+    width: 15px;
+}
+
+.fat-form-builder .prev-holder .radio-group .fb-radio{
+    margin-bottom: 5px;
+}
+.fat-form-builder .prev-holder .checkbox-group .fb-checkbox label,
+.fat-form-builder .prev-holder .radio-group .fb-radio label{
+    display: inline-block;
+}
+
+.fat-form-builder .btn-group .btn{
+    margin-left: 5px !important;
+    -webkit-border-radius: 4px !important;
+    -moz-border-radius: 4px !important;
+    border-radius: 4px !important;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.fat-form-builder .btn-group .btn:hover{
+    -webkit-box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+    -webkit-transform: translateY(-2px);
+    -moz-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    -o-transform: translateY(-2px);
+    transform: translateY(-2px);
+}
+.fat-form-builder .btn-group .btn.save-template{
+    background-color: #0073aa;
+    color: #fff;
+}
+.fat-form-builder .btn-group .btn.get-data{
+    display: none;
+}
+
+.fat-form-builder .form-wrap.form-builder .form-actions{
+    margin-top: 15px;
+}
+
+.fat-form-builder .form-wrap.form-builder .frmb .field-actions .btn{
+    height: 28px;
+    line-height: 28px;
+    position: relative;
+    display: inline-block;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.form-wrap.form-builder .frmb .field-actions a:before{
+    margin: 0;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    -moz-transform: translateY(-50%) translateX(-50%);
+    -ms-transform: translateY(-50%) translateX(-50%);
+    -o-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+    top: 50%;
+    position: absolute;
+    left: 50%;
+}
